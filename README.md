@@ -2,7 +2,7 @@
 Monokai + pluging config PHP
 
 Extenciones 
-
+```
   code --install-extension aswinkumar863.smarty-template-support
   code --install-extension ChakrounAnas.turbo-console-log
   code --install-extension chouzz.vscode-better-align
@@ -18,12 +18,14 @@ Extenciones
   code --install-extension ms-vscode.remote-server
   code --install-extension neilbrayfield.php-docblocker
   code --install-extension zobo.php-intellisense
-
+```
 Para listar las extenciones en power
 
 Unix:
+```
 code --list-extensions | xargs -L 1 echo code --install-extension
-
+```
 Windows (PowerShell, e. g. using Visual Studio Code's integrated Terminal):
+```
 code --list-extensions | % { "code --install-extension $_" }
-  
+```
