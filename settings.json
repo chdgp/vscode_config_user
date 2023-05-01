@@ -17,7 +17,7 @@
                     },
                 },
                 {
-                "scope": "storage.type.php, meta.function.parameter.no-default.php variable.other.php",
+                "scope": "variable.other.global.php, variable.other.global.safer.php, storage.type.php, meta.function.parameter.no-default.php variable.other.php",
                 "settings":
                     {
                         "foreground": "#ffbb00",
