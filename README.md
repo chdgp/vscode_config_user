@@ -1,2 +1,2 @@
 # vscode_config_user
-Monokai + pluging config
+Monokai + pluging config PHP
