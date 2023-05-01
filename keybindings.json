@@ -1,0 +1,12 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+a",
+        "command": "vscode-better-align.align",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_102",
+        "command": "editor.action.inspectTMScopes"
+    }
+]
