@@ -1,0 +1,89 @@
+{
+    "remote.SSH.remotePlatform": {
+    },
+    "php.validate.executablePath": "D:\\W11\\UwAmp310\\bin\\php\\php-8.2.5\\php.exe",
+    "php.validate.enable": true,
+    "php.executablePath": "D:\\W11\\UwAmp310\\bin\\php\\php-8.2.5\\php.exe",
+    "php.validate.run": "onSave",
+    "workbench.colorTheme": "Monokai",
+    "editor.tokenColorCustomizations": {
+        "[Monokai*]": {
+            "textMateRules":[
+                {
+                "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, keyword.operator.class.php",
+                "settings":
+                    {
+                        "foreground": "#fff"
+                    },
+                },
+                {
+                "scope": "storage.type.php, meta.function.parameter.no-default.php variable.other.php",
+                "settings":
+                    {
+                        "foreground": "#ffbb00",
+                        "fontStyle": "italic"
+                    },
+                },
+                {
+                "scope": "entity.name.function.php",
+                "settings":
+                    {
+                        "foreground": "#66D9EF"
+                    },
+                },
+                {
+                "scope": "storage.type.function.php ,storage.type.class.php",
+                "settings":
+                    {
+                        "foreground": "#F92672"
+                    },
+                },
+                {
+                "scope": "meta.function entity.name.function.php",
+                "settings":
+                    {
+                        "foreground": "#A6E22E"
+                    },
+                },
+                {
+                    "scope": "",
+                    "settings":
+                        {
+                            "foreground": "#e22ecd"
+                        },
+                }
+            ],	
+        }
+            
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Rouge]": {
+            "enabled": true,
+            "rules": {
+                "*.declaration": { "bold": true }
+            }
+        }
+    },
+    "workbench.colorCustomizations":{
+        "[Monokai]": {
+        "sideBar.foreground": "#c7c7c7",
+        "sideBar.background": "#0b1014",
+        "sideBarSectionHeader.background": "#0b1014",
+        "editor.background": "#000000",
+        "breadcrumb.background": "#0b1014",
+        "statusBar.background": "#0b1014",
+        "statusBar.foreground": "#626262",
+        "minimap.background": "#0b1014",
+        "titleBar.activeBackground": "#0b1014",
+        "editorGroupHeader.tabsBackground": "#0b1014",
+        "activityBar.background": "#0b1014",
+        "tab.inactiveBackground": "#0b1014",
+        "tab.activeBackground": "#0b1014",
+        "tab.activeBorder": "#ffd866",
+        }
+        
+    },
+    "dev.containers.defaultFeatures": {
+    
+    }
+}
